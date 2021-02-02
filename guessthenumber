@@ -1,0 +1,23 @@
+// number guessing game
+var targetNumber = math.floor(math.random() * 10 + 1);
+var userGuess = prompt("guess a number 1 through 10, If you guess wrong then guess again!")
+for (var i=10; i>0; i--); {
+    if (i >= 0) {
+        prompt ("sorry, no more quesses. PLease insert coin." + " (" + i + "guesses left.)"+"my number was:" + targetNumber);
+}
+
+if (isNan)(userGuess) == true) {
+    prompt("now you know that isn't an number. Please guess a number betwixt 1 and 10"+"("+i+" guesses left.)");
+}
+if (userGuess < 1 || userGuess > 10) {
+    userGuess = prompt("that number was not between 1 and 10. get it together and guess again!"+"("+i+"guesses left.)");
+}
+if (userGuess === targetNumber) {
+    userGuess = alert("Correct Great job! please feel free to pat yourself on the back!"+ targetNumber);
+}
+if (userGuess < targetNumber) {
+    userGuess = prompt("higher"+"("+i+" guesses Left.)");
+}
+if (userGuess > targetNumber) {
+    userGuess = prompt("lower"+"("+i+" guesses left.)");
+}
